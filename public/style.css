@@ -34,6 +34,8 @@
   .profile {
     grid-column: 1;
     grid-row: 1;
+    display: flex;
+    flex-flow: row wrap;
   }
   
   .dark-mode {
@@ -59,4 +61,18 @@
   .todo {
     grid-column: 2;
     grid-row: 2;
+  }
+
+  .content {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 15px;
+    margin-top: 15px;
+  }
+
+  h1 {
+    text-align: center;
   }
