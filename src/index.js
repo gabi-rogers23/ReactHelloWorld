@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Profile from './Profile';
+import TicTacToe from './TicTacToe';
 
 const App = (props) => {
   return <div className="app">
@@ -9,7 +10,7 @@ const App = (props) => {
       <h1>Dark Mode</h1>
     </div>
     <div className="tic-tac-toe">
-      <h1>Tic-Tac-Toe</h1>
+      <TicTacToe />
     </div>
     <div className="todo">
       <h1>Todo</h1>
